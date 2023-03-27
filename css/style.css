@@ -1,16 +1,31 @@
 .subtitle{
     color: grey;
+    line-height: 0;
 }
+
 
 .link{
     color: rgb(1, 196, 255);
 }
 
+.logo {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
 header{
+    position: relative;
     background-image: url(../img/pattern.png);
     height: 180px;
     background-color: rgb(1, 196, 255);
     background-position: top center;
     background-repeat: repeat;
+}
+
+.highlight{
+    background-color: yellow;
 }
 

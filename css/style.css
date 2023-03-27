@@ -29,3 +29,30 @@ header{
     background-color: yellow;
 }
 
+
+.table-column{
+    background-color: rgb(0, 153, 255);
+}
+
+.left{
+    display: inline-block;
+    width: 33%;
+    bottom: 1000%;
+
+}
+
+.centre{
+    display: inline-block;
+    width: 33%;
+
+}
+
+.right{
+    display: inline-block;
+    width: 33%;
+
+}
+
+.color{
+    background-color: rgba(0, 255, 255, 0.575);
+}

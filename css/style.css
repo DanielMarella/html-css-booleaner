@@ -1,5 +1,4 @@
 header{
-    width: 1000px;
     position: relative;
     background-image: url(../img/pattern.png);
     height: 180px;
@@ -28,61 +27,29 @@ header{
     font-size: 10px;
 }
 
-.paragrafo{
-    width: 1000px;
-}
-
-.list{
-    width: 1000px;
-}
-
 .highlight{
     background-color: yellow;
 }
 
-.table-line{
-    width: 1000px;
-    height: auto;
+table{
+    border-collapse: collapse;
 }
 
-.table-column{
-    display: inline-block;
-    width: 1000px;
-    height: 20pxpx;
+thead{
+    text-align: left;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.Line-blu{
+    background-color: #4e9ffe;
     color: white;
-    background-color: rgb(0, 153, 255);
 }
 
-.leftColumn{
-    display: inline-block;
-    width: 33%;
-}
-
-.centreColumn{
-    display: inline-block;
-    width: 33%;
-
-}
-
-.rightColumn{
-    display: inline-block;
-    width: 33%;
-}
-
-.left{
-    display: inline-block;
-    width: 33%;
-}
-
-.centre{
-    display: inline-block;
-    width: 33%;
-}
-
-.right{
-    display: inline-block;
-    width: 33%;
-
+.Line-light-blu{
+    background-color: #b0e4f1;
 }
 
 .color{
